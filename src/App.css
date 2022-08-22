@@ -1,0 +1,201 @@
+
+.App {
+  text-align: center;
+  background-image: linear-gradient(180deg, #2f0f3d 0%, #0f1334 65%, #2f0f3d 100%);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.containermain{
+  margin-top:8%;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-header input{
+  margin: -15px 0;
+}
+
+.container{
+  margin: 10px;
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff 100%);
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  font-weight: bold;
+  margin:2.5rem auto;
+  /* width: 43vw; */
+  width: 80%;
+  font-size: 15px;
+  border: 2px solid black;
+  margin-top: 50px;
+}
+
+.btn-1:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+.btn-2 {
+  background-image: linear-gradient(to right, #00C9FF 0%, #92FE9D  51%, #00C9FF  100%);
+  margin: 4px auto;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  /* display: block; */
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+.btn-2:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: white;
+  text-decoration: none;
+  transform: scale(1.1);
+
+}
+
+.texty{
+        font-weight: bold;
+        color: blueviolet;
+        border: 2px solid whitesmoke;
+        padding: 1rem;
+        border-radius: 8px;
+        background-color: rgb(70, 20, 70);
+        color:white;
+        margin:2rem;
+        box-shadow: 0 0 20px #eee;
+        font-size: 17px;
+      outline:none;
+      width: 40vw;
+    }
+
+    h1:before,
+    h1:after {
+      background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%);
+      content: "";
+      display: inline-block;
+      height: 3px;
+      border-radius:2px;
+      position: relative;  /*Keep position relative so as to move the line along with the message, in case, the height of the page changes*/
+      vertical-align: middle;
+      width: 30%;
+    }
+   
+    h1 {
+        display: block;
+        font-size: 2rem;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+    h1:before{
+    right: 18px;
+    }
+    h1:after{
+    left: 18px;
+    }
+
+
+    .card{
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(0.6px);
+      -webkit-backdrop-filter: blur(0.6px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      margin:1.5rem;
+      border:none;
+      max-height:200px;
+      width: 78%;
+      display: block;
+      margin: 1.5rem auto;
+    }
+
+    .intro{
+      font-size: 40px;
+      /* margin: 40px auto; */
+      margin-bottom: 25px;
+      margin-top: -58px;
+    }
+
+    .biotext{
+      color: grey;
+      font-size: 20px;
+      padding: 0px;
+      padding-bottom: 78px;
+      padding-top: 0px;
+      width: 50vw;
+      display: block;
+      margin: auto;
+      
+    }
+
+
+
+    .msgbox{
+      padding:0.7rem;
+      font-size: 16px;
+    }
+    
+    .message{
+      
+    /*   border:2px solid red; */
+      padding:1rem;
+      /* From https://css.glass */
+    /* From https://css.glass */
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.6px);
+    -webkit-backdrop-filter: blur(0.6px);
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+      margin-top:0.5rem;
+      
+    }
+    
+    .address{
+      font-style:italic;
+      color:#faebeb
+    }
+    
+    .time{
+      color:gray;
+      padding:0.3rem;
+    }
+
+
