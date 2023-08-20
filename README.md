@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Message Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Message Portal is a simple decentralized application (dapp) that allows users to write messages, which are then stored on the blockchain and displayed on the screen. The project showcases a basic version of a dapp that utilizes the Rinkeby Test Network as its underlying blockchain.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Blockchain-Powered Message Storage:** Message Portal utilizes blockchain technology to store user messages, ensuring secure and transparent message storage.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Rinkeby Test Network:** The smart contract for this project has been deployed to the Rinkeby Test Network, allowing for testing and development without using real Ether.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Message Display:** This version of the dapp displays messages stored on the blockchain in a user-friendly interface.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To interact with Message Portal, follow these steps:
 
-### `npm run build`
+1. **Connect to the Rinkeby Test Network:** Ensure that you are connected to the Rinkeby Test Network using an Ethereum wallet like MetaMask.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Access the Dapp:** Open the Message Portal by navigating to [https://messageportal.netlify.app/](https://messageportal.netlify.app/).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Write Messages:** Use the dapp interface to write and submit messages.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **View Messages:** Messages stored on the blockchain will be displayed on the screen.
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Blockchain:** Ethereum (Rinkeby Test Network)
+- **Smart Contract Language:** Solidity
+- **Frontend:** React, HTML, CSS, JavaScript
+- **Smart Contract Development:** Hardhat
+- **Ethereum Interaction:** ethers.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Deployment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The smart contract has been deployed to the Rinkeby Test Network. But the Rinkeby has been depreciated by Ethereum recently, so we can't interact with the network now.
 
-## Learn More
+## Contributions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions to enhance the functionality, security, and user experience of Message Portal are welcome. Feel free to submit issues and pull requests.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
